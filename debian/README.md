@@ -1,1 +1,1 @@
-#Automatizovaná instalace Zabixx na Debian
+# Automatizovaná instalace Zabixx na Debian
