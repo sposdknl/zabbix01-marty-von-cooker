@@ -1,4 +1,7 @@
 # Automatizovaná instalace Zabixx na Debian
+
+*(Screenshoty jsou ve složce "screenshots")*
+
 ## Příprava
 Jako první jsem si projekt z Githubu překopírval na plochu. Následně jsem zkonzultoval AI a hrdě pokračoval. 
 
@@ -13,3 +16,6 @@ Skript automatizující instalaci Zabbixu. Tenhle soubor dělá nejvíc problém
 
 ### Vagrantfile
 Tenhle soubor definuje vlastnosti virtuálního stroje (2 GB RAM a 2 CPU) a nastavuje port hosta (8080). Taky pracuje s klíčem, bez kterého by se nic jaksi nespustilo.
+
+## Postup
+Se všema souborama vytvořenýma jsem poprvé slavnostně použil "vagrant up", jen abych zjistil, že něco poněkud nefunguje. Po zopakování tohoto procesu nehorázně mockrát, se konečně vše spustilo. Bohužel, problémem se pro změnu ukázal být proces konfigurace Zabbixu. Problém byl s přihlášením uživatele "zabbix" s heslem "password".
