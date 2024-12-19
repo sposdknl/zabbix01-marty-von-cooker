@@ -18,4 +18,4 @@ Skript automatizující instalaci Zabbixu. Tenhle soubor dělá nejvíc problém
 Tenhle soubor definuje vlastnosti virtuálního stroje (2 GB RAM a 2 CPU) a nastavuje port hosta (8080). Taky pracuje s klíčem, bez kterého by se nic jaksi nespustilo.
 
 ## Postup
-Se všema souborama vytvořenýma jsem poprvé slavnostně použil "vagrant up", jen abych zjistil, že něco poněkud nefunguje. Po zopakování tohoto procesu nehorázně mockrát, se konečně vše spustilo. Bohužel, problémem se pro změnu ukázal být proces konfigurace Zabbixu. Problém byl s přihlášením uživatele "zabbix" s heslem "password".
+Se všema souborama vytvořenýma jsem poprvé slavnostně použil "vagrant up", jen abych zjistil, že něco poněkud nefunguje. Po zopakování tohoto procesu nehorázně mockrát, se konečně vše spustilo. Bohužel, problémem se pro změnu ukázal být proces konfigurace Zabbixu. Problém byl s přihlášením uživatele "zabbix" s heslem "password". Řešení tohoto problému  (viz */screenshots/zabbix_error*) jsem v tuhle chvíli věnoval již několik hodin, nicméně zatím nemám tušení, kde by mohla být chyba. Rady ze StackOverflow a podobných fór nefungovaly, podobně jako rady od ChatGPT a jiných AI.
